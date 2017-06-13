@@ -1,0 +1,23 @@
+{"questions": [{
+	"questionOne":{
+		"front": "The Red Wings are the Detroit NHL team", 
+		"back": "The Red Wings"
+	},
+	"questionTwo":{
+		"front": "The Blackhawks are the Chicago NHL team?", 
+		"back": "The Blackhawks"
+	},
+	"questionThree":{
+		"front": "The Avalanche are the Colorado NHL team?", 
+		"back": "The Avalanche"
+	},
+	"questionFour":{
+		"front": "The Blues are the St.Louis NHL team?", 
+		"back": "The Blues"
+	},
+	"questionFive":{
+		"front": "The Sharks are the San Jose NHL team?", 
+		"back": "The Sharks"
+	}
+}]	
+}
