@@ -1,23 +1,21 @@
-{"questions": [{
-	"questionOne":{
-		"front": "What is the name of the Detroit hockey team?", 
-		"back": "The Red Wings"
-	},
-	"questionTwo":{
-		"front": "What is the name of the Chicago hockey team?", 
-		"back": "The Blackhawks"
-	},
-	"questionThree":{
-		"front": "What is the name of the Colorado hockey team?", 
-		"back": "The Avalanche"
-	},
-	"questionFour":{
-		"front": "What is the name of the St.Louis hockey team?", 
-		"back": "The Blues"
-	},
-	"questionFive":{
-		"front": "What is the name of the San Jose hockey team?", 
-		"back": "The Sharks"
-	}
-}]	
+{
+	"front": "What is the name of the Detroit hockey team?", 
+	"back": "The Red Wings"
+},
+{
+	"front": "What is the name of the Chicago hockey team?", 
+	"back": "The Blackhawks"
+},
+{
+	"front": "What is the name of the Colorado hockey team?", 
+	"back": "The Avalanche"
+},
+{
+	"front": "What is the name of the St.Louis hockey team?", 
+	"back": "The Blues"
+},
+{
+	"front": "What is the name of the San Jose hockey team?", 
+	"back": "The Sharks"
+}	
 }
