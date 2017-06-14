@@ -1,33 +1,54 @@
 var command = process.argv[2];
-var basicCard = require('./basicCard.js');
-var clozeCard = require('./clozeCard.js');
-var arrayOfQuestions = require('../../basicCard.json');
-// var arrayOfQuestions = JSON.parse(basicQ)
+var Basic = require('./basicCard.js');
+var Cloze = require('./clozeCard.js');
+var basicCard= require('../../basicCard.json');
+var clozeCard = require('../../clozeCard.json');
+var inquirer = ('inquirer');
 
-// console.log(arrayOfQuestions);
-// var cardData = JSON.stringify(basicCard);
+//inquirer prompt to start game that runs playGame function
 
-for (i = 0; i < arrayOfQuestions.length; i++){
-	var basicQuestion = new basicCard(arrayOfQuestions[i].front, arrayOfQuestions[i].back);
-    // clozeQuestion[i] = new clozeCard(arrayOfQuestions[i].back, arrayOfQuestions[i].cloze);
+
+
+// MAKE THIS ASYNCHRONOUS!!!!!!!!!
+
+
+
+//play game function - initiates game 
+function playGame(){
+// if process.argv[2] = Basic then run this
+if (command === "Basic"){
+
+	for (var i = 0; i < basicCard.length; i++){
+		// console.log(basicCard[i]);
+		var cardData = new Basic (basicCard[i].front, basicCard[i].back);
+		// console.log(cardData);
+	}
+// prompt questions using inquirer
+
 }
 
-console.log(arrayOfQuestions[i].front, arrayOfQuestions[i].back);
-// function playGame(){
-// if (command === "Basic"){
-	
-// 	// var arrayOfQuestions = require('../../basicCard.json');
-// 	for (var i = 0; i < arrayOfQuestions.length; i++){
-//     	basicQuestion[i] = new basicCard(arrayOfQuestions[i].front, arrayOfQuestions[i].back);
-
-//     	console.log(arrayOfQuestions[i].front + arrayOfQuestions[i].back);
-//     }
-
-// }
-// if (command === "Cloze"){
-
-// }
 
 
-// }
-// playGame();
+// if process.argv[2] = Cloze run this
+if (command === "Cloze"){
+	// loop through objects in the clozeCard.json file
+	for (var i = 0; i < clozeCard.length; i++){
+		// console.log(basicCard[i]);
+		//store cloze cards in new variable called cardData
+		var cardData = new Cloze (clozeCard[i].partial, clozeCard[i].cloze);
+		// console.log(clozeCard[i].cloze + " " + clozeCard[i].partial);
+	}
+
+// prompt questions using inquirer
+
+}
+}
+// initiate playGame function 
+playGame();
+
+
+// play again function that initiates play game function
+
+
+
+

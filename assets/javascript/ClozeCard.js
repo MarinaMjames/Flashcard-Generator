@@ -1,16 +1,10 @@
-var basicCard = require('../../clozeCard.json');
-var cardData = JSON.stringify(basicCard);
+var clozeCard = require('../../clozeCard.json');
 
-console.log(cardData);
+// console.log(cardData);
 
-function ClozeCard(text, cloze) {
-	this.text = text;
+function ClozeCard(partial, cloze) {
+	this.partial = partial;
 	this.cloze = cloze;
 }
 
 module.exports = ClozeCard;
-
-
-for (var i = 0; i < cardData.length; i++){
-	
-}

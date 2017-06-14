@@ -1,23 +1,20 @@
-{"questions": [{
-	"questionOne":{
-		"text": "The Red Wings are the Detroit NHL team", 
-		"cloze": "The Red Wings"
-	},
-	"questionTwo":{
-		"text": "The Blackhawks are the Chicago NHL team?", 
-		"cloze": "The Blackhawks"
-	},
-	"questionThree":{
-		"text": "The Avalanche are the Colorado NHL team?", 
-		"cloze": "The Avalanche"
-	},
-	"questionFour":{
-		"text": "The Blues are the St.Louis NHL team?", 
-		"cloze": "The Blues"
-	},
-	"questionFive":{
-		"text": "The Sharks are the San Jose NHL team?", 
-		"cloze": "The Sharks"
-	}
+[{
+	"partial": "are the Detroit NHL team", 
+	"cloze": "The Red Wings"
+},
+{
+	"partial": "are the Chicago NHL team?", 
+	"cloze": "The Blackhawks"
+},
+{
+	"partial": "are the Colorado NHL team?", 
+	"cloze": "The Avalanche"
+},
+{
+	"partial": "are the St.Louis NHL team?", 
+	"cloze": "The Blues"
+},
+{
+	"partial": "are the San Jose NHL team?", 
+	"cloze": "The Sharks"
 }]	
-}
